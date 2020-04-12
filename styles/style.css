@@ -40,6 +40,13 @@
     font-weight: bold;
 }
 
+.logo__company-name_white {
+    margin: 00px 0 0 16px;
+    
+    color: white;
+    font-weight: bold;
+}
+
 .main-menu {
     margin: 0 0px 0 18px;
     
@@ -281,7 +288,40 @@
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 200px;
+    max-width: 100%;
+    height: 212px;
+    
+    font-weight: bold;
+
+    background-color: #303846;
+    color: white;
 }
+
+.footer__content-aria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    align-items: center;
+
+    
+    width: 1300px;
+    margin: auto;
+}
+
+.footer__section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: 150px;
+}
+
+
 
