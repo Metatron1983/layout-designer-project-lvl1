@@ -26,7 +26,7 @@
             <img class="banner__logo-img" src="images/Без названия.svg" alt="Logo">
             <h1 class="banner__slogan banner__slogan_big">ЖК «Лунное море»</h1>
             <h2 class="banner__slogan"> Место, откуда не хочется улетать</h2>
-            <button class="banner__button">Забронировать</button>
+            <button class="banner__button" form="lending-form" type="button">Забронировать</button>
         </div>
         <div class="main-content">
             <div class="section-advantages">
@@ -65,6 +65,44 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="feedback-form">
+            <p class="feedback-form__p">Оставьте заявку сегодня</p>
+            <form id="lending-form">
+                <fieldset class="feedback-form__fieldset">
+                    <legend class="feedback-form__legend">Парамеры квартиры</legend>
+                    
+                    <div class="rooms">
+                        <label for="room-var" class="feedback-form__label">Количество комнат:</label>
+                        <select id="room-var" class="feedback-form__label feedback-form_select">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        
+                        <label for="set-interior-finish" class="feedback-form__label">Отделка:</label>
+                        <select id="set-interior-finish" class="feedback-form__label feedback-form_select">
+                            <option value="No">Без отделки</option>
+                            <option value="Yes">С отделкой</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset class="feedback-form__fieldset">
+                    <legend class="feedback-form__legend">Контактная информация</legend>
+                    
+                    <div class="costomer-info">
+                        <label for="name" class="feedback-form__label">Имя:</label>
+                        <input type="text" id="name" class="feedback-form__label feedback-form_input-text">
+                        <label for="tel-num" class="feedback-form__label">Телефон:</label>
+                        <input type="tel" id="tel-num" class="feedback-form__label feedback-form_input-text">
+                        <label for="e-mail" class="feedback-form__label">E-mail:</label>
+                        <input type="email" id="e-mail" class="feedback-form__label feedback-form_input-text">
+                    </div>
+                </fieldset>
+                <input type="submit" class="feedback-form__submit-button">
+            </form>
         </div>
     </main>
     <footer class="footer">
