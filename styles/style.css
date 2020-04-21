@@ -1,6 +1,3 @@
-/*Note: За основу взята Atomic CSS (acss.io) с учетом комментариев и замечаний, прочтенных в комментариях ментора и на слаке 
-
-
                     /*-----default style-----*/
 .page {
     font: 16px Arial, Helvetica, sans-serif;
@@ -22,16 +19,6 @@
     width: 1000px;
 
     margin: auto;
-}
-
-.text-block-block-model-w290px {
-    width: 290px;
-    margin-top: 65px;
-}
-
-.text-block-block-model-w500px {
-    width: 500px;
-    margin-top: 50px;
 }
 
 .header-layout-block-model {
@@ -77,152 +64,160 @@
 }
 
                     /*----- layout -----*/
-.pos-a {
+.position-absolute {
     position: absolute;
 }
 
-.pos-r {
+.position-relative {
     position: relative;
 }
 
-.z-100 {
+.z-index-100 {
     z-index: 100;
 }
 
                     /*----- block-model -----*/
-.ai-c {
+.align-items-center {
     align-items: center;
 }
 
-.ai-fs {
+.align-items-start {
     align-items: flex-start;
 }
 
-.d-f {
+.display-flex {
     display: flex;
 }
 
-.fxd-r {
+.flex-direction-row {
     flex-direction: row;
 }
 
-.fxd-c {
+.flex-direction-column {
     flex-direction: column;
 }
 
-.fxw-w {
+.flex-wrap-wrap {
     flex-wrap: wrap;
 }
 
-.h-30px {
+.height-30px {
     height: 30px;
 }
 
-.h-33px {
+.height-33px {
     height: 33px;
 }
 
-.h-45px {
+.height-45px {
     height: 45px;
 }
 
-.h-80px {
+.height-80px {
     height: 80px;
 }
 
-.h-120px {
+.height-120px {
     height: 120px;
 }
 
-.h-170px {
+.height-170px {
     height: 170px;
 }
 
-.h-200px {
+.height-200px {
     height: 200px;
 }
 
-.h-404px{
+.height-404px{
     height: 404px;    
 }
 
-.h-650px {
+.height-650px {
     height: 650px;
 }
 
-.jc-c {
+.justify-content-center {
     justify-content: center;
 }
 
-.jc-sb {
+.justify-content-between {
     justify-content: space-between;
 }
 
-.ji-c {
+.justify-items-center {
     justify-items: center;
 }
 
-.w-150px {
+.width-150px {
     width: 150px;
 }
 
-.w-160px {
+.width-160px {
     width: 160px;
 }
 
-.w-190px {
+.width-190px {
     width: 190px;
 }
 
-.w-370px {
+.width-290px {
+    width: 290px;
+}
+
+.width-370px {
     width: 370px;
 }
 
-.w-411px {
+.width-411px {
     width: 411px;
 }
 
-.w-455px {
+.width-455px {
     width: 455px;
 }
 
-.w-1300px {
+.width-500px {
+    width: 500px;
+}
+
+.width-1300px {
     width: 1300px;
 }
 
-.w-100\% {
+.width-100per {
     width: 100%;
 }
 
-.w-150\% {
+.width-150per {
     width: 150%;
 }
 
-.pb-150px {
+.padding-bottom-150px {
     padding-bottom: 150px;
 }
 
-.pstart-5px {
+.padding-left-5px {
     padding-left: 5px;
 }
 
-.pstart-350px {
+.padding-left-350px {
     padding-left: 350px;
 }
 
-.pt-63px {
+.padding-top-63px {
     padding-top: 70px;
 }
 
-.m-a {
+.margin-auto {
     margin: auto;
 }
 
-.mb-0px {
+.margin-bottom-0px {
     margin-bottom: 0;
 }
 
-.mb-27px {
+.margin-bottom-27px {
     margin-bottom: 27px;
 }
 
@@ -230,102 +225,106 @@
     margin-left: 16px;
 }
 
-.mt-\(-20\)px {
-    margin-top: -20px;
-}
-
-.mt-18px {
+.margin-top-18px {
     margin-top: 18px;
 }
 
-.mt-27px {
+.margin-top-27px {
     margin-top: 27px;
 }
 
-.mt-70px {
+.margin-top-50px {
+    margin-top: 50px;
+}
+
+.margin-top-65px {
+    margin-top: 65px;
+}
+
+.margin-top-70px {
     margin-top: 70px;
 }
 
-.my-10px {
+.margin-y-10px-0 {
     margin: 10px 0;
 }
 
                     /*----- typography -----*/
-.fw-b {
+.font-weight-bold {
     font-weight: bold;
 }
 
-.fw-n {
+.font-weight-normal {
     font-weight: normal;
 }
 
-.fz-18px {
+.font-size-18px {
     font-size: 18px;
 }
 
-.fz-30px {
+.font-size-30px {
     font-size: 30px;
 }
 
-.fz-32px {
+.font-size-32px {
     font-size: 32px;
 }
 
-.fz-46px {
+.font-size-46px {
     font-size: 46px;
 }
 
                     /*----- decoration -----*/
-.bd-1px-solid-grey {
+.border-1px-solid-grey {
     border: solid 1px #a8a8a8;
 }
 
-.bd-2px-solid-white {
+.border-2px-solid-white {
     border: 2px solid white;
 }
 
-.bd-solid-green {
+.border-solid-green {
     border: solid rgb(53, 218, 186);
 }
 
-.bdc-green {
+.border-color-green {
     border-color:  rgb(53, 218, 186);
 }
 
-.bdrs-10px {
+.border-radius-10px {
     border-radius: 10px;
 }
 
-.bgc-rgb303846 {
+.background-color-rgb303846 {
     background-color: #303846;
 }
 
-.bgc-grey {
+.background-color-grey {
     background-color: #f7f7f7;
 }
 
-.bgc-white {
+.background-color-white {
     background-color: white;
 }
 
-.c-black {
+.color-black {
     color: black;
 }
 
-.c-green {
+.color-green {
     color: rgb(53, 218, 186);
 }
 
-.c-white {
+.color-white {
     color: #ffffff;
 }
 
-.ov-h {
+.overflow-hidden {
     overflow: hidden;
 }
 
                     /*----- animation -----*/
-.c-red-when-hover a:hover {
+.color-red-when-hover a:hover {
     color: red;
     text-decoration: underline;
 }
