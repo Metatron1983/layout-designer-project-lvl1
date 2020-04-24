@@ -9,108 +9,118 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body class="page">
-    <header class="header">
+    <header>
         <div class="logo">
             <img class="logo-img-small" src="images/Logo.svg" alt="Logo">
-            <span class="m-left-16px font-bold">Лунное море</span>
+            <span class="font-bold">Лунное море</span>
         </div>
-        <div>
+        <nav>
             <a class="menu-item" href="#аdvantages">Преимущества</a>
             <a class="menu-item" href="#about-prj">О ЖК</a>
             <a class="menu-item" href="#place-to-rest">Места для отдыха</a>
-        </div>
+        </nav>
     </header>
-    <main class="screen-padding p-bottom-0px">
-        <div class="position-relative z-index-100 content-column overflow-hidden h-404px text-color-alt">
-            <img class="position-absolute w-150per p-left-350px p-bottom-150px" src="images/banner.png" alt="Background">
-            <img class="position-relative w-170px" src="images/Logo.svg" alt="Logo">
-            <h1>ЖК «Лунное море»</h1>
-            <h3> Место, откуда не хочется улетать</h3>
-            <button class="position-relative btn text-color-alt border-color-white" form="lending-form" type="button" onclick="window.location.href='#button-anchor'">Забронировать</button>
-        </div>
-        <div>
-            <div id="аdvantages" class="screen-padding">
-                <div class="content-block-model align-items-start">
-                    <div class="w-290px"> 
-                        <h2>Уникальный вид</h2>
-                        <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
-                    </div>
-                    <div class="w-290px">
-                        <h2>Инфраструктура</h2>
-                        <p>Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
-                    </div>
-                    <div class="w-290px">
-                        <h2>Близость к Москве</h2>
-                        <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
-                    </div>
+    <main class="p-top-header">
+        <section class="z-index-100 bg-banner text-color-alt">
+            <div class="content-column screen-padding">    
+                <img class="w-170px" src="images/Logo.svg" alt="Logo">
+                <h1>ЖК «Лунное море»</h1>
+                <h3> Место, откуда не хочется улетать</h3>
+                <button class="btn text-border-white" form="lending-form" type="button" onclick="window.location.href='#button-anchor'">Забронировать</button>
+            </div>
+        </section>
+        <section id="аdvantages" class="screen-padding">
+            <div class="content-block-model align-items-start">
+                <div class="w-290px"> 
+                    <h2>Уникальный вид</h2>
+                    <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
+                </div>
+                <div class="w-290px">
+                    <h2>Инфраструктура</h2>
+                    <p>Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
+                </div>
+                <div class="w-290px">
+                    <h2>Близость к Москве</h2>
+                    <p>При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.</p>
                 </div>
             </div>
-            <div id="about-prj" class="screen-padding bg-color-alt">
-                <div class="content-block-model align-items-start">
-                    <div class="w-500px"> 
-                        <h2>О ЖК «Лунное море»</h2>
-                        <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
-                        <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
-                    </div>
-                    <img class="h-200px" src="images/moon-1.jpg" alt="moon-1">
+        </section>
+        <section id="about-prj" class="screen-padding bg-color-alt">
+            <div class="content-block-model align-items-start">
+                <div class="w-500px"> 
+                    <h2>О ЖК «Лунное море»</h2>
+                    <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.</p>
+                    <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в 380 тысяч километров от Земли.</p>
+                </div>
+                <img class="h-200px" src="images/moon-1.jpg" alt="moon-1">
+            </div>
+        </section>
+        <section id="place-to-rest" class="screen-padding">
+            <div class="content-block-model align-items-start">
+                <img class="h-200px" src="images/moon-2.jpg" alt="moon-2">
+                <div class="w-500px"> 
+                    <h2>Места для отдыха</h2>
+                    <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
+                    <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
                 </div>
             </div>
-            <div id="place-to-rest" class="screen-padding">
-                <div class="content-block-model align-items-start">
-                    <img class="h-200px" src="images/moon-2.jpg" alt="moon-2">
-                    <div class="w-500px"> 
-                        <h2>Места для отдыха</h2>
-                        <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.</p>
-                        <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="screen-padding content-column bg-color-alt" id="button-anchor">
-            <p class="m-top-18px m-bottom-0px font-size-32px font-bold">Оставьте заявку сегодня</p>
-            <form id="lending-form">
-                <fieldset class="w-455px m-top-18px text-color-green border-color-green">
-                    <legend class="font-size-32px">Парамеры квартиры</legend>
-                    
-                    <div class="form-block-model w-370px h-80px my-10px-0">
-                        <label for="room-var" class="w-160px p-left-5px font-bold c-black">Количество комнат:</label>
-                        <select id="room-var" class="w-160px h-33px p-left-5px border-radius-10px c-black">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
+        </section>
+        <div class="screen-padding bg-color-alt" id="button-anchor">
+            <div class="content-column">
+                <h2>Оставьте заявку сегодня</h2>
+                <form id="lending-form">
+                    <fieldset class="text-border-green">
+                        <legend class="font-size-30px">Парамеры квартиры</legend>
                         
-                        <label for="set-interior-finish" class="w-160px p-left-5px font-bold c-black">Отделка:</label>
-                        <select id="set-interior-finish" class="w-160px h-33px p-left-5px border-radius-10px c-black">
-                            <option value="No">Без отделки</option>
-                            <option value="Yes">С отделкой</option>
-                        </select>
-                    </div>
-                </fieldset>
-                <fieldset class="w-455px m-top-18px text-color-green border-color-green">
-                    <legend class="font-size-32px">Контактная информация</legend>
-                    
-                    <div class="form-block-model w-411px h-120px my-10px-0">
-                        <label for="name" class="w-160px p-left-5px font-bold c-black">Имя:</label>
-                        <input type="text" id="name" class="w-190px h-30px p-left-5px c-black border-radius-10px border-1px-solid-grey">
-                        <label for="tel-num" class="w-160px p-left-5px font-bold c-black">Телефон:</label>
-                        <input type="tel" id="tel-num" class="w-190px h-30px p-left-5px c-black border-radius-10px border-1px-solid-grey">
-                        <label for="e-mail" class="w-160px p-left-5px font-bold c-black">E-mail:</label>
-                        <input type="email" id="e-mail" class="w-190px h-30px p-left-5px c-black border-radius-10px border-1px-solid-grey">
-                    </div>
-                </fieldset>
-                <input type="submit" class="btn m-top-18px font-bold text-color-green" value="Отправить">
-            </form>
+                        <div class="w-370px my-10px-0">
+                            <div class="form-block-model">
+                                <label for="room-var" class="font-bold c-black">Количество комнат:</label>
+                                <select id="room-var" class="w-160px h-33px border-radius-10px">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                            <div class="form-block-model">
+                                <label for="set-interior-finish" class="font-bold c-black">Отделка:</label>
+                                <select id="set-interior-finish" class="w-160px h-33px border-radius-10px ">
+                                    <option value="No">Без отделки</option>
+                                    <option value="Yes">С отделкой</option>
+                                </select>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="m-top-18px text-border-green">
+                        <legend class="font-size-30px">Контактная информация</legend>
+                        
+                        <div class="w-400px my-10px-0">
+                            <div class="form-block-model">
+                                <label for="name" class="font-bold c-black">Имя:</label>
+                                <input type="text" id="name" class="w-190px h-30px border-radius-10px border-1px-solid-grey">
+                            </div>
+                            <div class="form-block-model">    
+                                <label for="tel-num" class="font-bold c-black">Телефон:</label>
+                                <input type="tel" id="tel-num" class="w-190px h-30px border-radius-10px border-1px-solid-grey">
+                            </div>
+                            <div class="form-block-model">    
+                                <label for="e-mail" class="font-bold c-black">E-mail:</label>
+                                <input type="email" id="e-mail" class="w-190px h-30px border-radius-10px border-1px-solid-grey">
+                            </div>
+                        </div>
+                    </fieldset>
+                    <input type="submit" class="btn text-border-green" value="Отправить">
+                </form>
+            </div>
         </div>
     </main>
-    <footer class="display-flex padding-footer font-bold text-color-alt footer-bg-color">
+    <footer>
         <div class="content-block-model align-items-center">
-            <div class="content-column">
+            <div>
                 <div class="logo">
                     <img class="logo-img-small" src="images/Logo.svg" alt="Logo">
-                    <div class="m-left-16px font-bold text-color-alt">Лунное море</div>
+                    <span>Лунное море</span>
                 </div>
                 <p>© 2032 год</p>
             </div>
